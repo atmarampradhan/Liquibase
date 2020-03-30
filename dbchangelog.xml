@@ -15,12 +15,4 @@
             <column name="active" type="boolean"                     
               defaultValueBoolean="true"/>
         </createTable>
-   </changeSet>
-   <changeSet id="2" author="xyz">
- <addAutoIncrement tableName="department" columnName="id" columnDataType="int" />
- <renameColumn tableName="department" oldColumnName="name" newColumnName="fullname" columnDataType="varchar(100)"/>
- <addColumn tableName="department">
-  <column name="age" type="SMALLINT"/>
- </addColumn>
-</changeSet>
-  </databaseChangeLog>
+</databaseChangeLog>
