@@ -15,4 +15,6 @@
             <column name="active" type="boolean"                     
               defaultValueBoolean="true"/>
         </createTable>
-</databaseChangeLog>
+   </changeSet>
+  
+  </databaseChangeLog>
